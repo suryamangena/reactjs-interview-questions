@@ -411,6 +411,8 @@ You can download the PDF and Epub version of this repository from the latest run
     }
     ```
     Creating nested elements becomes tedious in big programs using createElement, to handle this jsx got into place
+    JSX allows to write the nested Relationship of elements in a natural way. 
+    Angle braces codes is jsx. Curly braces is JavaScript code
 
 
    **[⬆ Back to Top](#table-of-contents)**
