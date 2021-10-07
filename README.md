@@ -629,6 +629,20 @@ A component's state, on the other hand, represents mutable data that ultimately 
    **[⬆ Back to Top](#table-of-contents)**
     
 12. ### What is the purpose of callback function as an argument of `setState()`?
+         First Way -> Passing a function -> We will use this when new component depends on previous state
+        ```
+        this.setState((prevState)=>({
+            count: prevState.count +1
+        }))
+        ```
+        Second Way -> Passing an object -> for everything else use object
+        ```
+        this.setState({
+        username: 'Surya'
+        })
+        ```
+Whenever, we use setState() react will render the entire application and update the UI. In React, UI is a just function of your state
+
 
     The callback function is invoked when setState finished and the component gets rendered. Since `setState()` is **asynchronous** the callback function is used for any post action.
 
