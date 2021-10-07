@@ -470,6 +470,33 @@ You can download the PDF and Epub version of this repository from the latest run
    **[⬆ Back to Top](#table-of-contents)**
     
 5. ### How to create components in React?
+        Components: Components are used to construct our UI. Components refer to reusable pieces of code ultimately responsible for returning HTML to be rendered         onto the page. you'll see React components written with JSX
+   
+           Three New Concepts of React
+        Props -> Allows you to pass data into your components
+        Functional Components -> An alternative, and probably more intuitive(easy to understand) approach to creating components
+        Controlled Components -> Allow you to hook up the forms in your application to your component state
+        Functional vs Class Component
+        Easy to understand
+        No need to use this keyword
+        Functional Component is Stateless as these components do not have to worry about managing changing data. They just display the data.
+        No need to mention the render
+        ```
+        Class Component
+        class User extends React.Component {
+            render(){
+                return (
+                    <p>Username: {this.props.username}</p>
+                )
+            }
+        }
+        Functional Component
+        function User(props){
+            return (
+                <p> Username: {props.username}</p>
+            )
+        }
+        ```
 
     There are two possible ways to create a component.
 
