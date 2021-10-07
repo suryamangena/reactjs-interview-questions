@@ -465,6 +465,8 @@ You can download the PDF and Epub version of this repository from the latest run
       'Login'
     )
     ```
+    
+    React elements are immutable. Once you create an element, you can’t change its children or attributes.
 
 
    **[⬆ Back to Top](#table-of-contents)**
